@@ -81,7 +81,7 @@ def create_glove_embedding_init(idx2word, glove_file):
 
 if __name__ == '__main__':
     args = parse_args()
-    dataroot = 'data' if args.task == 'vqa' else 'data/flickr30k'
+    dataroot = 'data' if args.task == 'vqa' else 'flickr30k'
 
     dictionary_path = os.path.join(dataroot, 'dictionary.pkl')
 
